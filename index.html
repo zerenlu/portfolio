@@ -42,15 +42,16 @@
 			</p>
 		</div>
 		<div class="box">
-			def celsius_to_fahrenheit (a)
-				return a * 9 / 5 + 32;
-	
-			end
+			<pre><code class="language-ruby">def celsius_to_fahrenheit (a)
+	return a * 9 / 5 + 32;
+		
+end
 
-			puts &quot;Enter the temperature value in Celsius you want to convert:&quot;
-			celval = gets.chomp.to_f;
-			fahrval = celsius_to_fahrenheit (celval);
-			puts &quot;#{celval} Celsius equals #{fahrval} Fahrenheit&quot;
+puts &quot;Enter the temperature value in Celsius:&quot;
+celval = gets.chomp.to_f;
+fahrval = celsius_to_fahrenheit (celval);
+puts &quot;#{celval} Celsius equals #{fahrval} Fahrenheit&quot;
+			</code></pre>
 		</div>
 		
 		<br class="clear">
