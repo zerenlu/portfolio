@@ -16,6 +16,7 @@ h2{
 	margin-top: 0;
 }
 h3{
+	color: #095169;
 	text-align: center;
 	font-size: 28px;
 	font-weight: normal;
@@ -57,6 +58,7 @@ h3{
 	background-image: -moz-linear-gradient(left, #f0f0f0, #22748F, #f0f0f0);
 	background-image: -ms-linear-gradient(left, #f0f0f0, #22748F, #f0f0f0);
 	background-image: -o-linear-gradient(left, #f0f0f0, #22748F, #f0f0f0); 
+	width: 300px;
 }
 .about-container {
 	background: url(bg.jpg) no-repeat center center fixed;
