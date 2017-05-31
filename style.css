@@ -87,3 +87,6 @@ p {
 .clear {
 	clear:both;
 }
+.full-width {
+	width: 100%;
+}
