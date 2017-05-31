@@ -99,7 +99,27 @@ puts &quot;#{number} is #{ordinal}#{suf}&quot;
 			</p>
 		</div>
 		<div class="box">
-			right side
+			<pre><code class="language-ruby">puts &quot;How many items do you want to see?&quot;
+total_item = gets.chomp.to_i
+def foobar_pattern(target)
+	n = 1
+	pattern = []
+	while n &lt;= target
+		if n % 3 == 0 &amp;&amp; n % 5 != 0
+			pattern &lt;&lt; &quot;Foo&quot;
+		elsif n % 5 == 0 &amp;&amp; n % 3 != 0
+			pattern &lt;&lt; &quot;Bar&quot;
+		elsif n % 3 == 0 &amp;&amp; n % 5 == 0
+			pattern &lt;&lt; &quot;Foobar&quot;
+		else
+			pattern &lt;&lt; n
+		end
+		n = n + 1
+	end
+	return pattern
+end
+puts foobar_pattern(total_item).inspect
+		</code></pre>
 		</div>
 		
 		<br class="clear">
