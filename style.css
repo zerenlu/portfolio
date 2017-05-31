@@ -26,9 +26,13 @@ h4 {
 	text-align: center;
 	font-size: 24px;
 	font-weight: normal;
+	color: #0E5066;
+
 }
 p {
 	text-align: center;
+	color: #0E5066;
+
 }
 
 .bio {
@@ -78,7 +82,6 @@ p {
 }
 .box {
 	float: left;
-	color: #0E5066;
 	width: 42.5%;
 	margin-left: 5%;
 	margin-top: 80px;
