@@ -1,5 +1,6 @@
 body{
 	font-family: 'Inknut Antiqua', serif;
+	margin: 0;
 }
 
 h1{
@@ -48,5 +49,5 @@ h2{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	height: 600px;
+	height: 750px;
 }
