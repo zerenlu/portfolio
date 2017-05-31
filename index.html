@@ -43,13 +43,13 @@
 		</div>
 		<div class="box">
 			<pre><code class="language-ruby">def celsius_to_fahrenheit (a)
-	return a * 9 / 5 + 32;
+	return a * 9 / 5 + 32
 		
 end
 
 puts &quot;Enter the temperature value in Celsius:&quot;
-celval = gets.chomp.to_f;
-fahrval = celsius_to_fahrenheit (celval);
+celval = gets.chomp.to_f
+fahrval = celsius_to_fahrenheit (celval)
 puts &quot;#{celval} Celsius equals #{fahrval} Fahrenheit&quot;
 			</code></pre>
 		</div>
@@ -57,7 +57,26 @@ puts &quot;#{celval} Celsius equals #{fahrval} Fahrenheit&quot;
 		<br class="clear">
 
 		<div class="box">
-			left side
+			<pre><code class="language-ruby">def suffix(num)
+	if num &lt; 0
+		num = -num
+	end
+	if num % 10 == 1 &amp;&amp; num != 11
+		return &quot;st&quot;
+	elsif num % 10 == 2 &amp;&amp; num != 12
+		return &quot;nd&quot;
+	elsif num % 10 == 3 &amp;&amp; num != 13
+		return &quot;rd&quot;
+	else
+		return &quot;th&quot;
+	end
+end
+puts &quot;Enter a number:&quot;
+number = gets.chomp
+ordinal = number.to_i
+suf = suffix(ordinal)
+puts &quot;#{number} is #{ordinal}#{suf}&quot;
+			</code></pre>
 		</div>
 		<div class="box">
 			<h4>Ordinal Challenge</h4>
