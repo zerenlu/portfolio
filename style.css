@@ -71,6 +71,8 @@ p {
 	background-image: -ms-linear-gradient(left, #f0f0f0, #22748F, #f0f0f0);
 	background-image: -o-linear-gradient(left, #f0f0f0, #22748F, #f0f0f0); 
 	width: 300px;
+	border-bottom: none;
+	border-right: none;
 }
 .about-container {
 	background: url(bg.jpg) no-repeat center center fixed;
@@ -109,5 +111,13 @@ p {
 	padding-top: 30px;
 }
 .contact-headline {
+	color: white;
+}
+.contact-info {
+	color: white;
+	font-size: 13px;
+	margin-top: 30px;
+}
+.contact-link {
 	color: white;
 }
