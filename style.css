@@ -105,5 +105,9 @@ p {
 }
 .contact-me {
 	height: 350px;
-	background-color: #202020;
+	background-color: #022040;
+	padding-top: 30px;
+}
+.contact-headline {
+	color: white;
 }
