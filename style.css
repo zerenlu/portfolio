@@ -34,6 +34,17 @@ p {
 	color: #0E5066;
 
 }
+li {
+  display: inline-block;
+  font-size: 12px;
+  width: 100px;
+  font-weight: bold;
+  margin-top: 30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+  margin-left: 30px;
+}
 
 .bio {
 	color: white;
@@ -122,4 +133,8 @@ p {
 	color: white;
 	font-weight: bold;
 	font-size: 13px;
+}
+.hire-me {
+  border-style: solid;
+  border-color: white;
 }
