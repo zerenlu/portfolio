@@ -163,3 +163,7 @@ a {
   border-style: solid;
   border-color: white;
 }
+.socialLink {
+	margin-top: 0px;
+	font-size: 40px;
+}
