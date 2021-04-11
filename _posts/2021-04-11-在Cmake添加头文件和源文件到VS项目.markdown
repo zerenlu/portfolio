@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  "通过Cmake添加头文件和源文件到VS项目中"
+title:  "在Cmake添加头文件和源文件到VS项目"
 date:   2021-04-11 13:53:01 +0100
 categories: OpenCV
 ---
 
-在[用CMake配置OpenCV-VisualStudio项目](https://zerenlu.github.io/opencv/2021/04/08/%E7%94%A8CMake%E9%85%8D%E7%BD%AEOpenCV-VisualStudio%E9%A1%B9%E7%9B%AE.html)这篇文章中，介绍了如何用CMake配置VS项目，而在实际应用中，我们往往需要向项目中添加自定义的头文件和源文件，接下来这篇文章将介绍如何将自定义的头文件和源文件添加到CMake配置的VS项目中。
+在[用CMake配置OpenCV-VisualStudio项目](https://zerenlu.github.io/opencv/2021/04/08/%E7%94%A8CMake%E9%85%8D%E7%BD%AEOpenCV-VisualStudio%E9%A1%B9%E7%9B%AE.html)
+这篇文章中，介绍了如何用CMake配置VS项目，而在实际应用中，
+我们往往需要向项目中添加自定义的头文件和源文件，接下来这篇文章将介绍如何将自定义的头文件和源文件添加到CMake配置的VS项目中。
 
 ### 布局文件结构
 
@@ -17,7 +19,8 @@ IntroCV
 |-main.cpp
 |-build
 ```
-其中**buid**文件夹是用来存放`cmake`产生的CV项目文件的，无论想要做什么更改，都不要动build文件夹里面的东西，因为里面的东西是自动生成的。
+其中**buid**文件夹是用来存放`cmake`产生的CV项目文件的，无论想要做什么更改，都不要动
+build文件夹里面的东西，因为里面的东西是自动生成的。
 
 那么这时我想添加一个头文件和源文件用来存放函数，比如说是添加噪声的函数，那么我们新建一个文件夹**noise**:
 
