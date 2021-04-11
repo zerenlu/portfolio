@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "通过CMake添加头文件和源文件到VS项目中"
+title:  "通过Cmake添加头文件和源文件到VS项目中"
 date:   2021-04-11 13:53:01 +0100
 categories: OpenCV
 ---
