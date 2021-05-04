@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "解决Ubuntu上Git由于双重验证无法push的问题"
-date:   2021-04-11 13:53:01 +0100
-categories: OpenCV
+date:   2021-04-28 13:53:01 +0100
+categories: git
 ---
 
 # Using SSH key
