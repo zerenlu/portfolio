@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "解决Ubuntu上Git由于双重验证无法push的问题"
+date:   2021-04-11 13:53:01 +0100
+categories: OpenCV
+---
+
 # Using SSH key
 
 If the two-factor auth is activated in GitHub, then the HTTPS may not be used as origin URL. It is better to use SSH as origin URL so that SSH key can ensure the connection.
