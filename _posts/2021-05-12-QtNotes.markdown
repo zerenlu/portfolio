@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "C++ GUI Programming with Qt4 读书笔记"
+date:   2021-05-12 23:03:01 +0100
+categories: Qt
+---
+
+Qt入门，先熟悉基类都是干什么的：
+
+- QCoreApplication：基类，用于命令行程序
+- QGuiApplication: 基类+GUI，用于QML程序
+- QApplication：基类+GUI+Widgets支持，用于QtWidget程序。
