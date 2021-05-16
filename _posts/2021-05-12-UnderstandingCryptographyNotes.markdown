@@ -30,3 +30,11 @@ categories: Cryptography
 - DES是分组加密算法，在1970年代相当流行，但是随着计算机科技的发展，目前已经可以通过遍历所有密钥手段暴力破解，因为DES密钥长度只有56bit。
 - DES 是 AES Advanced Encryption Standard的前身，目前也有很多高效的块加密算法，如3DES， Twofishes, Mars等。
 - DES 基于Feistel对称加密结构，即将明文分成左右两部分，将左部分与轮换的密钥进行运算，运算函数f是关键，而运算函数中的S-box(替换表)是运算函数的核心，运算完后将结果作为下一轮的右部分，下一轮的左部分为上一步的右部分。
+
+# Chapter 4 AES Advanced Encryption Standard
+
+AES 目前应用的非常广泛，与DES不同的是，AES没有使用Feistel对称加密结构，所有的明文在每一轮都会被加密。**非常值得用C++实现一下**，以便更好的了解。
+
+- AES 的基本运算基于Galois field算法，能够提供非常高的diffusion和confusion
+- AES 应用于TLS， IPsec, WiFi等，将会在长时间内被广泛应用。
+- AES 在软件和硬件的效率都很高。
