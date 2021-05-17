@@ -38,3 +38,12 @@ AES 目前应用的非常广泛，与DES不同的是，AES没有使用Feistel对
 - AES 的基本运算基于Galois field算法，能够提供非常高的diffusion和confusion
 - AES 应用于TLS， IPsec, WiFi等，将会在长时间内被广泛应用。
 - AES 在软件和硬件的效率都很高。
+
+# Chapter 5 Operation Modes for Block Cipher
+
+很多运算模式可以应用到分组加密算法来使得算法更加安全，运算模式相当于一个框架，而加密算法如AES等是这个框架中的一个模块。
+
+- 目前一共有八种NIST承认的运算模式， 5个用来加强保密性（ECB,CBC,CFB,OFB,CTR), 一个用来身份认证（CMAC）, 两个结合了保密性和身份认证（CCM, GCM）。
+
+- 双重加密即串联加密并不能有效提高对于暴力破解的抗性，但是三重串联加密可以，3DES。
+- Key whitening 扩大了DES的密钥长度而且并没有造成很大的计算负担，但key whitening并不能提高对于分析性攻击的抗性，它只能提高对于暴力破解的抗性。
