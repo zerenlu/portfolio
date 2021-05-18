@@ -47,3 +47,10 @@ AES 目前应用的非常广泛，与DES不同的是，AES没有使用Feistel对
 
 - 双重加密即串联加密并不能有效提高对于暴力破解的抗性，但是三重串联加密可以，3DES。
 - Key whitening 扩大了DES的密钥长度而且并没有造成很大的计算负担，但key whitening并不能提高对于分析性攻击的抗性，它只能提高对于暴力破解的抗性。
+
+# Chapter 6 Intro to Public-key Cryptography
+在加密解密的流程中，只要接收方有密钥可以解密就可以了，任何人都可以用公开的密钥加密，本着这个想法，公有-私有密钥结构诞生了。
+
+- Public-key algorithms很慢，所以一般用来加密密钥、身份认证等，具体数据还是用对称算法比较高效。
+- 目前有三类广泛应用的非对称加密算法： Integer factorization(eg. RSA), Discrete logarithm, Elliptic curves。
+- 费马最小定理和欧拉定理在RSA算法中很常用，确定了如何计算同余的倒数。
